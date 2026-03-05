@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester United FC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #DA291C;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #000000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #FFCC00;
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    /* Squad UI */
+    .squad-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .player-card {
+      background-color: #FFCC00;
+      color: black;
+      width: 150px;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .player-card:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    /* Matches UI */
+    .match-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .match-card {
+      background-color: #FFCC00;
+      color: black;
+      width: 200px;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .match-card:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #000000;
+      color: #FFCC00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manchester United FC</h1>
+  </header>
+
+  <nav>
+    <a href="#team">Team</a>
+    <a href="#fixtures">Fixtures</a>
+    <a href="#news">News</a>
+  </nav>
+
+  <main>
+    <!-- Squad Section -->
+    <section id="team">
+      <h2>Squad MU 2025/2026</h2>
+      <div class="squad-container">
+        <!-- Kiper -->
+        <div class="player-card"><strong>Altay Bayındır</strong><br>Kiper</div>
+        <div class="player-card"><strong>Tom Heaton</strong><br>Kiper</div>
+        <div class="player-card"><strong>Senne Lammens</strong><br>Kiper</div>
+        
+        <!-- Bek -->
+        <div class="player-card"><strong>Leny Yoro</strong><br>Bek</div>
+        <div class="player-card"><strong>Matthijs de Ligt</strong><br>Bek</div>
+        <div class="player-card"><strong>Lisandro Martínez</strong><br>Bek</div>
+        <div class="player-card"><strong>Harry Maguire</strong><br>Bek</div>
+        <div class="player-card"><strong>Ayden Heaven</strong><br>Bek</div>
+        <div class="player-card"><strong>Tyler Fredricson</strong><br>Bek</div>
+        <div class="player-card"><strong>Patrick Dorgu</strong><br>Bek</div>
+        <div class="player-card"><strong>Luke Shaw</strong><br>Bek</div>
+        <div class="player-card"><strong>Tyrell Malacia</strong><br>Bek</div>
+        <div class="player-card"><strong>Diego León</strong><br>Bek</div>
+        
+        <!-- Gelandang -->
+        <div class="player-card"><strong>Kobbie Mainoo</strong><br>Gelandang</div>
+        <div class="player-card"><strong>Bruno Fernandes</strong><br>Gelandang</div>
+        <div class="player-card"><strong>Mason Mount</strong><br>Gelandang</div>
+        
+        <!-- Penyerang -->
+        <div class="player-card"><strong>Matheus Cunha</strong><br>Penyerang</div>
+        <div class="player-card"><strong>Bryan Mbeumo</strong><br>Penyerang</div>
+        <div class="player-card"><strong>Benjamin Šeško</strong><br>Penyerang</div>
+      </div>
+    </section>
+
+    <!-- Fixtures Section -->
+    <section id="fixtures">
+      <h2>Upcoming Matches</h2>
+      <div class="match-container">
+        <div class="match-card">
+          <p><strong>Manchester United vs Aston Villa</strong></p>
+          <p>14 Mar 2026 | Old Trafford</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Bournemouth vs Manchester United</strong></p>
+          <p>21 Mar 2026 | Vitality Stadium</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Manchester United vs Leeds United</strong></p>
+          <p>11 Apr 2026 | Old Trafford</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Chelsea vs Manchester United</strong></p>
+          <p>18 Apr 2026 | Stamford Bridge</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Manchester United vs Brentford</strong></p>
+          <p>25 Apr 2026 | Old Trafford</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Manchester United vs Liverpool</strong></p>
+          <p>2 Mei 2026 | Old Trafford</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Sunderland vs Manchester United</strong></p>
+          <p>9 Mei 2026 | Stadium of Light</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Manchester United vs Nottingham Forest</strong></p>
+          <p>17 Mei 2026 | Old Trafford</p>
+        </div>
+        <div class="match-card">
+          <p><strong>Brighton vs Manchester United</strong></p>
+          <p>24 Mei 2026 | Amex Stadium</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news">
+      <h2>Latest News</h2>
+      <p>Berita terbaru MU akan tampil di sini...</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Manchester United FC | Web by <strong>Rival</strong>
+  </footer>
+</body>
+</html>
